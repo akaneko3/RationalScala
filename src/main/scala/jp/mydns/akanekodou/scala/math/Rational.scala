@@ -34,9 +34,9 @@ object RationalImplicits {
 
     // 四則演算
     def plus(x : Rational, y : Rational) : Rational =
-      Rational(x.numer * y.denom + x.denom * y.numer ,x.denom * y.denom)
+      Rational(x.numer * y.denom + x.denom * y.numer, x.denom * y.denom)
     def minus(x : Rational, y : Rational) : Rational =
-      Rational(x.numer * y.denom - x.denom * y.numer ,x.denom * y.denom)
+      Rational(x.numer * y.denom - x.denom * y.numer, x.denom * y.denom)
     def times(x : Rational, y : Rational) : Rational =
       Rational(x.numer * y.numer, x.denom * y.denom)
     def div(x : Rational, y : Rational) : Rational =
